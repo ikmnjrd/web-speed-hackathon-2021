@@ -7,8 +7,6 @@ import { ImageArea } from '../../post/ImageArea';
 import { MovieArea } from '../../post/MovieArea';
 import { SoundArea } from '../../post/SoundArea';
 
-import './test.css';
-
 /**
  * @param {Element} target
  * @param {Element} currentTarget
