@@ -19,7 +19,6 @@ const CoveredImage = ({ alt, src }) => {
         alt={alt}
         className="relative w-full h-full overflow-hidden object-cover"
         src={src}
-        width="500"
         loading='lazy'
       />
     </div>
