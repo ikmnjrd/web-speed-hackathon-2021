@@ -55,10 +55,10 @@ const AppContainer = () => {
         </Routes>
       </AppPage>
 
-      {modalType === 'auth' ? (
+      {modalType === 'auth' && (
         <AuthModalContainer onRequestCloseModal={handleRequestCloseModal} onUpdateActiveUser={setActiveUser} />
-      ) : null}
-      {modalType === 'post' ? <NewPostModalContainer onRequestCloseModal={handleRequestCloseModal} /> : null}
+      )}
+      {modalType === 'post' && <NewPostModalContainer onRequestCloseModal={handleRequestCloseModal} />}
     </>
   );
 };
